@@ -4,7 +4,9 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/background.css" />
         <link rel="stylesheet" href="styles/main.css" />
         <link rel="stylesheet" href="styles/ball.css" />
@@ -12,13 +14,14 @@
     </head>
     <body>
         <div class="main">
-            <div class="stars"></div>
-            <div class="twinkling"></div>
+            <!-- <div class="stars"></div>
+            <div class="twinkling"></div> -->
+            <section id="stars"></section>
 
             <div class="interaction__container">
+                <h1 class="label">Ask Magic Ball Yor Special Quastion</h1>
                 <input id="input" class="input" type="text" onkeypress="handleKeyEnter(event)" value="" required />
-                <span class="input__bar"></span>
-                <label>Ask Your Question</label>
+                <span class="input__bar"></span>                
                 <p id="error" class="error"></p>
             </div>
 
@@ -34,5 +37,6 @@
             </div>
         </div>
     </body>
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/stars.js"></script>
 </html>

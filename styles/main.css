@@ -1,10 +1,10 @@
 * {
-    font-family: 'Audiowide', cursive;
+    font-family: 'Agbalumo', sans-serif;
 }
 
 body {
     background-color: #0b132b;
-    font-size: 16px;
+    font-size: 20px;
     overflow-y: hidden;
 }
 
@@ -21,6 +21,15 @@ body {
     margin-bottom: 30px;
 }
 
+.label{
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    color: #065306;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #cac704, 0 0 35px #cac004, 0 0 40px #cac704,
+    0 0 50px #cac304, 0 0 75px #cac304;
+}
+
 .input {
     font-size: 1.2rem;
     padding: 10px 10px 10px 0px;
@@ -35,16 +44,7 @@ body {
     outline: none;
 }
 
-.input ~ label {
-    position: absolute;
-    margin-left: 40px;
-    font-size: 2rem;
-    font-weight: 700;
-    top: -2.2rem;
-    left: 2rem;
-    color: white;
-    
-}
+
 
 .input__bar {
     position: relative;
@@ -54,9 +54,9 @@ body {
     width: 100%;
     bottom: 1px;
     position: absolute;
-    background: white;
-    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #3f04ca, 0 0 35px #3f04ca, 0 0 40px #3f04ca,
-        0 0 50px #3f04ca, 0 0 75px #3f04ca;
+    background: #065306;
+    box-shadow:  0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #cac704, 0 0 35px #cac004, 0 0 40px #cac704,
+    0 0 50px #cac304, 0 0 75px #cac304;
 }
 
 .input:focus ~ .input__bar:before,
@@ -70,21 +70,22 @@ body {
 }
 
 .button {
-    border: 0;
+    border: 2px solid #065306;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 20px;
     text-transform: uppercase;
-    background: white;
-    color: black;
+    background: #cac3045a;
+    color: #013a01;
     cursor: pointer;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff;
     padding: 0.6rem 1rem;
     margin-top: 1rem;
     margin-bottom: 4rem;
 }
 
 .button:hover {
-    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 1px #3f04ca, 0 0 2px #3f04ca, 0 0 2px #3f04ca,
-        0 0 0px #3f04ca, 0 0 2px #3f04ca;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 1px #cac304, 0 0 2px #cac304, 0 0 2px #cac304,
+        0 0 0px #cac304, 0 0 2px #cac304;
 }
 
 .button:disabled {

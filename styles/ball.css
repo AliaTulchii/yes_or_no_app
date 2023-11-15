@@ -17,9 +17,9 @@
     border-radius: 100%;
     border: solid 4px rgba(20, 20, 20, 0.8);
     box-shadow: 10px -10px 10px rgba(20, 20, 20, 0.6), 10px -10px 1px rgba(20, 20, 20, 0.5),
-        -10px -10px 1px rgba(20, 20, 20, 0.5), 10px 10px 1px rgba(23, 20, 20, 0.5), -10px 10px 1px rgba(19, 17, 17, 0.5),
+        -10px -10px 1px rgba(20, 20, 20, 0.5), 10px 10px 1px rgba(23, 22, 20, 0.5), -10px 10px 1px rgba(19, 18, 17, 0.5),
         8px -10px 10px rgba(20, 20, 20, 0.6), -8px 10px 10px rgba(39, 39, 39, 0.6),
-        inset -10px 10px 40px rgba(200, 0, 20, 0.1), inset 10px -10px 40px rgba(20, 0, 200, 0.1);
+        inset -10px 10px 40px rgba(0, 200, 33, 0.1), inset 10px -10px 40px rgba(0, 200, 13, 0.1);
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -64,7 +64,7 @@
 }
 
 .ball .ball__triangle {
-    border-top: 90px solid #d19508;
+    border-top: 90px solid #c7d108;
     -webkit-transform: translate(-50%, -50%) rotate(0deg);
     transform: translate(-50%, -50%) rotate(0deg);
     opacity: 1;
